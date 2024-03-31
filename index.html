@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>Our Anniversary Fizar & Ina</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		<audio autoplay loop>
+			<source src="music/music.mp3" type="audio/mpeg">
+			Browser tidak support audio
+		</audio>
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">We have been together</h2>
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/1.png", "pic/2.png", "pic/3.png", "pic/4.png", "pic/5.png", "pic/6.png", 
+			"pic/7.png", "pic/8.png", "pic/9.png", "pic/10.png", "pic/11.png", "pic/12.png", "pic/13.png",
+			"pic/14.png", "pic/15.png", "pic/16.png"];
+			var imageIndex = 0;
+			var txtArray = ["Dua tahun lalu, di tengah hiruk pikuk dunia, kita bertemu seperti dua jiwa yang sejak lama saling mencari.", "Hari itu, pandangan pertama kita berbicara lebih banyak daripada kata-kata yang pernah kita ucapkan.", "Dengan setiap senyumanmu, aku merasa seperti menemukan bagian dari diriku yang hilang selama ini.",
+			 "Melalui setiap tatapan, aku tahu bahwa kita ditakdirkan untuk berbagi cerita cinta yang indah bersama.", "Di hari-hari awal hubungan kita, setiap momen terasa seperti mimpi yang nyata, tak terhitung berapa kali aku terbangun hanya untuk memastikan kau masih di sampingku.", "Dua tahun telah berlalu, dan cinta kita tetap terjaga seperti api yang tak pernah padam.", "Setiap hari bersamamu, aku merasa seperti berada di surga, karena cinta kita mengubah dunia sekeliling menjadi tempat yang lebih indah.",
+			 "Bersamamu, aku belajar arti sejati dari kasih sayang, pengorbanan, dan kepercayaan yang tak tergoyahkan.", "Dalam pelukanmu, aku menemukan perlindungan dari segala badai yang mungkin melanda, karena kita membangun benteng cinta yang tak terkalahkan.", "Melalui suka dan duka, kita saling menguatkan satu sama lain, membuktikan bahwa cinta sejati mampu mengatasi segala rintangan.", "Dengan setiap tahun yang berlalu, aku semakin yakin bahwa kamu adalah belahan jiwaku yang selama ini aku cari-cari.", 
+			 "Dua tahun ini telah mengubahku menjadi pribadi yang lebih baik, karena kamu telah memberiku inspirasi dan motivasi yang tak terhingga.", "Bersamamu, aku belajar menikmati keindahan sederhana dalam kehidupan, seperti senja yang menyinari langit dengan warna-warni yang memikat.", "Dalam setiap detik yang kita habiskan bersama, aku bersyukur atas keajaiban cinta yang telah mengubah hidupku secara sempurna.", "Hari ini, di ulang tahun cinta kita yang kedua, aku berjanji untuk selalu mencintaimu dengan segenap hatiku, lebih dari kemarin dan kurang dari besok.", "Love You <3"];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
